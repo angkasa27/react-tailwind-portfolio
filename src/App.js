@@ -12,8 +12,8 @@ export default function App() {
   return (
     <div className="bg-white    text-gray-600  font-nunito">
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/react-tailwind-mycomplaint" component={Home} />
+        <Route exact path="/react-tailwind-portfolio/" component={Home} />
+        <Route path="/react-tailwind-portfolio" component={Home} />
       </Switch>
     </div>
   );

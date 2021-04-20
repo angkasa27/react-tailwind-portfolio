@@ -154,14 +154,14 @@ export function Section1() {
   return (
     <section
       id="section1"
-      className="h-full md:h-auto grid grid-cols-1 md:grid-cols-2 w-full grid-rows-2 md:grid-rows-1"
+      className="h-full md:max-h-96 grid grid-cols-1 md:grid-cols-2 w-full grid-rows-2 md:grid-rows-1"
     >
-      <div className="relative col-span-1 md:col-start-2">
+      <div className="relative col-span-1 md:col-start-2 bg-red-300">
         <div className="w-56 h-56  md:w-80 md:h-80 bg-orange  absolute rounded-full opacity-90 top-1/4 left-1/2 transform -translate-x-1/2 translate-y-1/4" />
         <img
           src={main}
           alt=""
-          className="animate-upDown absolute w-full md:w-3/4 md:left-20 md:transform translate-x-1/2 top-5 z-20"
+          className="animate-upDown absolute w-full md:w-96 md:left-20 md:transform translate-x-1/2 top-5 z-20"
         />
       </div>
       <div className="text-white col-span-1 md:col-start-1 md:row-start-1 md:pl-16 justify-start flex items-center md:items-start flex-col  pt-24 md:pt-40">
